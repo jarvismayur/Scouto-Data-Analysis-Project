@@ -1,0 +1,1882 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data Analytics  -Indian Stock Market Top 2000' inline='true' name='federated.1g25sad1jvamt50zkbpwa0v6iuet' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Data Analytics  -Indian Stock Market Top 2000' name='textscan.1ifwj5a08806sy12rzl3z0p2nw07'>
+            <connection class='textscan' directory='C:/Users/Jarvis/Documents/GitHub/Scouto (acquired By Spinny)' filename='Data Analytics  -Indian Stock Market Top 2000.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ifwj5a08806sy12rzl3z0p2nw07' name='Data Analytics  -Indian Stock Market Top 2000.csv' table='[Data Analytics  -Indian Stock Market Top 2000#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Ticker' ordinal='1' />
+            <column datatype='string' name='Sub-Sector' ordinal='2' />
+            <column datatype='real' name='Market Cap' ordinal='3' />
+            <column datatype='real' name='Close Price' ordinal='4' />
+            <column datatype='real' name='PE Ratio' ordinal='5' />
+            <column datatype='real' name='Return on Equity' ordinal='6' />
+            <column datatype='real' name='Return on Assets' ordinal='7' />
+            <column datatype='real' name='Net Profit Margin' ordinal='8' />
+            <column datatype='real' name='5Y Avg EBITDA Margin' ordinal='9' />
+            <column datatype='real' name='EBITDA Margin' ordinal='10' />
+            <column datatype='real' name='1Y Return vs Nifty' ordinal='11' />
+            <column datatype='real' name='5Y CAGR' ordinal='12' />
+            <column datatype='real' name='Debt to Equity' ordinal='13' />
+            <column datatype='real' name='Long Term Debt to Equity' ordinal='14' />
+            <column datatype='real' name='Net Income / Liabilities' ordinal='15' />
+            <column datatype='real' name='5Y Historical Revenue Growth' ordinal='16' />
+            <column datatype='real' name='5Y Historical EBITDA Growth' ordinal='17' />
+            <column datatype='real' name='5Y Hist Op. Cash Flow Growth' ordinal='18' />
+            <column datatype='real' name='5Y Historical EPS Growth' ordinal='19' />
+            <column datatype='real' name='Forward PE Ratio' ordinal='20' />
+            <column datatype='real' name='Enterprise Value' ordinal='21' />
+            <column datatype='real' name='PB Ratio' ordinal='22' />
+            <column datatype='real' name='Dividend Yield' ordinal='23' />
+            <column datatype='real' name='PE Premium vs Sector' ordinal='24' />
+            <column datatype='real' name='Domestic Institutional Holding' ordinal='25' />
+            <column datatype='real' name='Mutual Fund Holding' ordinal='26' />
+            <column datatype='real' name='Promoter Holding' ordinal='27' />
+            <column datatype='real' name='Foreign Institutional Holding' ordinal='28' />
+            <column datatype='real' name='Retail Investor Holding' ordinal='29' />
+            <column datatype='real' name='Pledged Promoter Holdings' ordinal='30' />
+            <column datatype='real' name='Insurance Firms Holding' ordinal='31' />
+            <column datatype='integer' name='No. of Shareholders' ordinal='32' />
+            <column datatype='real' name='Total Revenue' ordinal='33' />
+            <column datatype='real' name='Net Income' ordinal='34' />
+            <column datatype='real' name='PBT' ordinal='35' />
+            <column datatype='real' name='Earnings Per Share' ordinal='36' />
+            <column datatype='real' name='EBITDA' ordinal='37' />
+            <column datatype='real' name='Long Term Investments' ordinal='38' />
+            <column datatype='real' name='Reserves &amp; Surplus' ordinal='39' />
+            <column datatype='real' name='Cash and Equivalent' ordinal='40' />
+            <column datatype='real' name='Book Value' ordinal='41' />
+            <column datatype='real' name='Free Cash Flow' ordinal='42' />
+            <column datatype='real' name='Operating Cash Flow' ordinal='43' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ifwj5a08806sy12rzl3z0p2nw07' name='Data Analytics  -Indian Stock Market Top 2000.csv' table='[Data Analytics  -Indian Stock Market Top 2000#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Ticker' ordinal='1' />
+            <column datatype='string' name='Sub-Sector' ordinal='2' />
+            <column datatype='real' name='Market Cap' ordinal='3' />
+            <column datatype='real' name='Close Price' ordinal='4' />
+            <column datatype='real' name='PE Ratio' ordinal='5' />
+            <column datatype='real' name='Return on Equity' ordinal='6' />
+            <column datatype='real' name='Return on Assets' ordinal='7' />
+            <column datatype='real' name='Net Profit Margin' ordinal='8' />
+            <column datatype='real' name='5Y Avg EBITDA Margin' ordinal='9' />
+            <column datatype='real' name='EBITDA Margin' ordinal='10' />
+            <column datatype='real' name='1Y Return vs Nifty' ordinal='11' />
+            <column datatype='real' name='5Y CAGR' ordinal='12' />
+            <column datatype='real' name='Debt to Equity' ordinal='13' />
+            <column datatype='real' name='Long Term Debt to Equity' ordinal='14' />
+            <column datatype='real' name='Net Income / Liabilities' ordinal='15' />
+            <column datatype='real' name='5Y Historical Revenue Growth' ordinal='16' />
+            <column datatype='real' name='5Y Historical EBITDA Growth' ordinal='17' />
+            <column datatype='real' name='5Y Hist Op. Cash Flow Growth' ordinal='18' />
+            <column datatype='real' name='5Y Historical EPS Growth' ordinal='19' />
+            <column datatype='real' name='Forward PE Ratio' ordinal='20' />
+            <column datatype='real' name='Enterprise Value' ordinal='21' />
+            <column datatype='real' name='PB Ratio' ordinal='22' />
+            <column datatype='real' name='Dividend Yield' ordinal='23' />
+            <column datatype='real' name='PE Premium vs Sector' ordinal='24' />
+            <column datatype='real' name='Domestic Institutional Holding' ordinal='25' />
+            <column datatype='real' name='Mutual Fund Holding' ordinal='26' />
+            <column datatype='real' name='Promoter Holding' ordinal='27' />
+            <column datatype='real' name='Foreign Institutional Holding' ordinal='28' />
+            <column datatype='real' name='Retail Investor Holding' ordinal='29' />
+            <column datatype='real' name='Pledged Promoter Holdings' ordinal='30' />
+            <column datatype='real' name='Insurance Firms Holding' ordinal='31' />
+            <column datatype='integer' name='No. of Shareholders' ordinal='32' />
+            <column datatype='real' name='Total Revenue' ordinal='33' />
+            <column datatype='real' name='Net Income' ordinal='34' />
+            <column datatype='real' name='PBT' ordinal='35' />
+            <column datatype='real' name='Earnings Per Share' ordinal='36' />
+            <column datatype='real' name='EBITDA' ordinal='37' />
+            <column datatype='real' name='Long Term Investments' ordinal='38' />
+            <column datatype='real' name='Reserves &amp; Surplus' ordinal='39' />
+            <column datatype='real' name='Cash and Equivalent' ordinal='40' />
+            <column datatype='real' name='Book Value' ordinal='41' />
+            <column datatype='real' name='Free Cash Flow' ordinal='42' />
+            <column datatype='real' name='Operating Cash Flow' ordinal='43' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh incremental-updates='' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ticker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ticker]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Ticker</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-Sector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sub-Sector]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Sub-Sector</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market Cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Market Cap]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Market Cap</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Close Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Close Price]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Close Price</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PE Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PE Ratio]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>PE Ratio</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Return on Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Return on Equity]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Return on Equity</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Return on Assets</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Return on Assets]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Return on Assets</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Profit Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Profit Margin]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Net Profit Margin</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5Y Avg EBITDA Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5Y Avg EBITDA Margin]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>5Y Avg EBITDA Margin</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EBITDA Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EBITDA Margin]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>EBITDA Margin</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1Y Return vs Nifty</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[1Y Return vs Nifty]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>1Y Return vs Nifty</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5Y CAGR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5Y CAGR]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>5Y CAGR</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Debt to Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Debt to Equity]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Debt to Equity</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Term Debt to Equity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long Term Debt to Equity]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Long Term Debt to Equity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Income / Liabilities</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Income / Liabilities]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Net Income / Liabilities</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5Y Historical Revenue Growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5Y Historical Revenue Growth]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>5Y Historical Revenue Growth</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5Y Historical EBITDA Growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5Y Historical EBITDA Growth]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>5Y Historical EBITDA Growth</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5Y Hist Op. Cash Flow Growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5Y Hist Op. Cash Flow Growth]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>5Y Hist Op. Cash Flow Growth</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5Y Historical EPS Growth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[5Y Historical EPS Growth]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>5Y Historical EPS Growth</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Forward PE Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Forward PE Ratio]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Forward PE Ratio</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Enterprise Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Enterprise Value]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Enterprise Value</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PB Ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PB Ratio]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>PB Ratio</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dividend Yield</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dividend Yield]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Dividend Yield</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PE Premium vs Sector</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PE Premium vs Sector]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>PE Premium vs Sector</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic Institutional Holding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic Institutional Holding]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Domestic Institutional Holding</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mutual Fund Holding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mutual Fund Holding]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Mutual Fund Holding</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promoter Holding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Promoter Holding]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Promoter Holding</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign Institutional Holding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Foreign Institutional Holding]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Foreign Institutional Holding</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Retail Investor Holding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Retail Investor Holding]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Retail Investor Holding</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pledged Promoter Holdings</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pledged Promoter Holdings]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Pledged Promoter Holdings</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Insurance Firms Holding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Insurance Firms Holding]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Insurance Firms Holding</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No. of Shareholders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No. of Shareholders]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>No. of Shareholders</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total Revenue]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Total Revenue</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Income</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Net Income]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Net Income</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PBT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PBT]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>PBT</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Earnings Per Share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Earnings Per Share]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Earnings Per Share</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EBITDA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EBITDA]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>EBITDA</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long Term Investments</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long Term Investments]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Long Term Investments</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reserves &amp; Surplus</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reserves &amp; Surplus]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Reserves &amp; Surplus</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cash and Equivalent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cash and Equivalent]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Cash and Equivalent</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Book Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Book Value]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Book Value</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Free Cash Flow</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Free Cash Flow]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Free Cash Flow</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Operating Cash Flow</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Operating Cash Flow]</local-name>
+            <parent-name>[Data Analytics  -Indian Stock Market Top 2000.csv]</parent-name>
+            <remote-alias>Operating Cash Flow</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='5y Cagr' datatype='real' name='[5Y CAGR]' role='measure' type='quantitative' />
+      <column caption='Intrinsic Value' datatype='real' name='[Calculation_1308014222576865280]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(([Earnings Per Share] * (8.5+2*[5Y Historical EPS Growth])*6)/ [Dividend Yield])' />
+      </column>
+      <column caption='Margin Of Safetyv In Percentage' datatype='real' name='[Calculation_1308014222579318785]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(([Calculation_1308014222576865280] - [Close Price])/[Calculation_1308014222576865280])*100' />
+      </column>
+      <column caption='3 Cases Of Growth' datatype='string' name='[Calculation_1308014222583783426]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='If [Calculation_1308014222579318785] &gt;= 15 AND [Calculation_1308014222579318785]&lt;=25    THEN &quot;Good Growth&quot;&#13;&#10;ELSEIF  [Calculation_1308014222579318785] &lt;= -5 THEN &quot;Bad Growth&quot; &#13;&#10;ELSEIF [Calculation_1308014222579318785] &gt;=25 THEN &quot;Best Growth&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Count of Comapny' datatype='integer' name='[Calculation_1308014222585688067]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Name])' />
+      </column>
+      <column caption='Ebitda' datatype='real' name='[EBITDA]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data Analytics  -Indian Stock Market Top 2000.csv' datatype='table' name='[__tableau_internal_object_id__].[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F' count='10' enabled='true' units='sample-records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Jarvis/Documents/My Tableau Repository/Datasources/Data Analytics  -Indian Stock Market Top 2000- Sample 10 Data.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='09/05/2022 07:35:38 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh incremental-updates=''>
+            <refresh-event add-from-file-path='Data Analytics  -Indian Stock Market Top 2000' increment-value='%null%' refresh-type='create' rows-inserted='10' timestamp-start='2022-09-05 07:35:38.300' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ticker</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ticker]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ticker</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub-Sector</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub-Sector]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub-Sector</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Market Cap</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Market Cap]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Market Cap</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Close Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Close Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Close Price</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PE Ratio</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PE Ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PE Ratio</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Return on Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Return on Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Return on Equity</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Return on Assets</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Return on Assets]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Return on Assets</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Net Profit Margin</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Net Profit Margin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Net Profit Margin</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5Y Avg EBITDA Margin</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[5Y Avg EBITDA Margin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5Y Avg EBITDA Margin</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EBITDA Margin</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[EBITDA Margin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EBITDA Margin</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1Y Return vs Nifty</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[1Y Return vs Nifty]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1Y Return vs Nifty</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5Y CAGR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[5Y CAGR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5Y CAGR</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Debt to Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Debt to Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Debt to Equity</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Term Debt to Equity</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Long Term Debt to Equity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Term Debt to Equity</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Net Income / Liabilities</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Net Income / Liabilities]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Net Income / Liabilities</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5Y Historical Revenue Growth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[5Y Historical Revenue Growth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5Y Historical Revenue Growth</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5Y Historical EBITDA Growth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[5Y Historical EBITDA Growth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5Y Historical EBITDA Growth</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5Y Hist Op. Cash Flow Growth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[5Y Hist Op. Cash Flow Growth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5Y Hist Op. Cash Flow Growth</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5Y Historical EPS Growth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[5Y Historical EPS Growth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5Y Historical EPS Growth</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Forward PE Ratio</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Forward PE Ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Forward PE Ratio</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Enterprise Value</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Enterprise Value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Enterprise Value</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PB Ratio</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PB Ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PB Ratio</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dividend Yield</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Dividend Yield]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dividend Yield</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PE Premium vs Sector</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PE Premium vs Sector]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PE Premium vs Sector</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Domestic Institutional Holding</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Domestic Institutional Holding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Domestic Institutional Holding</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mutual Fund Holding</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Mutual Fund Holding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mutual Fund Holding</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Promoter Holding</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Promoter Holding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Promoter Holding</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Foreign Institutional Holding</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Foreign Institutional Holding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Foreign Institutional Holding</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Retail Investor Holding</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Retail Investor Holding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Retail Investor Holding</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pledged Promoter Holdings</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Pledged Promoter Holdings]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pledged Promoter Holdings</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Insurance Firms Holding</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Insurance Firms Holding]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Insurance Firms Holding</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No. of Shareholders</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No. of Shareholders]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>No. of Shareholders</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Total Revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Revenue</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Net Income</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Net Income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Net Income</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PBT</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PBT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PBT</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Earnings Per Share</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Earnings Per Share]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Earnings Per Share</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EBITDA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[EBITDA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EBITDA</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Long Term Investments</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Long Term Investments]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Long Term Investments</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reserves &amp; Surplus</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Reserves &amp; Surplus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reserves &amp; Surplus</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Cash and Equivalent</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Cash and Equivalent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Cash and Equivalent</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Book Value</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Book Value]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Book Value</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Free Cash Flow</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Free Cash Flow]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Free Cash Flow</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Operating Cash Flow</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Operating Cash Flow]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Operating Cash Flow</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Data Analytics  -Indian Stock Market Top 2000.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+        <filter class='quantitative' column='[Calculation_1308014222576865280]' included-values='in-range'>
+          <min>-1393193.6760729449</min>
+          <max>4295170.3523891447</max>
+        </filter>
+        <filter class='quantitative' column='[Calculation_1308014222579318785]' included-values='in-range'>
+          <min>-15.0</min>
+          <max>100.0</max>
+        </filter>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data Analytics  -Indian Stock Market Top 2000.csv' id='Data Analytics  -Indian Stock Market Top 2000.csv_4450A3F7E2544F089A405F7D89D05C1F'>
+            <properties context=''>
+              <relation connection='textscan.1ifwj5a08806sy12rzl3z0p2nw07' name='Data Analytics  -Indian Stock Market Top 2000.csv' table='[Data Analytics  -Indian Stock Market Top 2000#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='Ticker' ordinal='1' />
+                  <column datatype='string' name='Sub-Sector' ordinal='2' />
+                  <column datatype='real' name='Market Cap' ordinal='3' />
+                  <column datatype='real' name='Close Price' ordinal='4' />
+                  <column datatype='real' name='PE Ratio' ordinal='5' />
+                  <column datatype='real' name='Return on Equity' ordinal='6' />
+                  <column datatype='real' name='Return on Assets' ordinal='7' />
+                  <column datatype='real' name='Net Profit Margin' ordinal='8' />
+                  <column datatype='real' name='5Y Avg EBITDA Margin' ordinal='9' />
+                  <column datatype='real' name='EBITDA Margin' ordinal='10' />
+                  <column datatype='real' name='1Y Return vs Nifty' ordinal='11' />
+                  <column datatype='real' name='5Y CAGR' ordinal='12' />
+                  <column datatype='real' name='Debt to Equity' ordinal='13' />
+                  <column datatype='real' name='Long Term Debt to Equity' ordinal='14' />
+                  <column datatype='real' name='Net Income / Liabilities' ordinal='15' />
+                  <column datatype='real' name='5Y Historical Revenue Growth' ordinal='16' />
+                  <column datatype='real' name='5Y Historical EBITDA Growth' ordinal='17' />
+                  <column datatype='real' name='5Y Hist Op. Cash Flow Growth' ordinal='18' />
+                  <column datatype='real' name='5Y Historical EPS Growth' ordinal='19' />
+                  <column datatype='real' name='Forward PE Ratio' ordinal='20' />
+                  <column datatype='real' name='Enterprise Value' ordinal='21' />
+                  <column datatype='real' name='PB Ratio' ordinal='22' />
+                  <column datatype='real' name='Dividend Yield' ordinal='23' />
+                  <column datatype='real' name='PE Premium vs Sector' ordinal='24' />
+                  <column datatype='real' name='Domestic Institutional Holding' ordinal='25' />
+                  <column datatype='real' name='Mutual Fund Holding' ordinal='26' />
+                  <column datatype='real' name='Promoter Holding' ordinal='27' />
+                  <column datatype='real' name='Foreign Institutional Holding' ordinal='28' />
+                  <column datatype='real' name='Retail Investor Holding' ordinal='29' />
+                  <column datatype='real' name='Pledged Promoter Holdings' ordinal='30' />
+                  <column datatype='real' name='Insurance Firms Holding' ordinal='31' />
+                  <column datatype='integer' name='No. of Shareholders' ordinal='32' />
+                  <column datatype='real' name='Total Revenue' ordinal='33' />
+                  <column datatype='real' name='Net Income' ordinal='34' />
+                  <column datatype='real' name='PBT' ordinal='35' />
+                  <column datatype='real' name='Earnings Per Share' ordinal='36' />
+                  <column datatype='real' name='EBITDA' ordinal='37' />
+                  <column datatype='real' name='Long Term Investments' ordinal='38' />
+                  <column datatype='real' name='Reserves &amp; Surplus' ordinal='39' />
+                  <column datatype='real' name='Cash and Equivalent' ordinal='40' />
+                  <column datatype='real' name='Book Value' ordinal='41' />
+                  <column datatype='real' name='Free Cash Flow' ordinal='42' />
+                  <column datatype='real' name='Operating Cash Flow' ordinal='43' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Intrinsic Values Of Sample Companies'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Analytics  -Indian Stock Market Top 2000' name='federated.1g25sad1jvamt50zkbpwa0v6iuet' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g25sad1jvamt50zkbpwa0v6iuet'>
+            <column datatype='real' name='[5Y Historical EPS Growth]' role='measure' type='quantitative' />
+            <column caption='Intrinsic Value' datatype='real' name='[Calculation_1308014222576865280]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([Earnings Per Share] * (8.5+2*[5Y Historical EPS Growth])*6)/ [Dividend Yield])' />
+            </column>
+            <column caption='Margin Of Safetyv In Percentage' datatype='real' name='[Calculation_1308014222579318785]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([Calculation_1308014222576865280] - [Close Price])/[Calculation_1308014222576865280])*100' />
+            </column>
+            <column datatype='real' name='[Close Price]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Dividend Yield]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Earnings Per Share]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1308014222576865280]' derivation='Sum' name='[sum:Calculation_1308014222576865280:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1308014222579318785]' derivation='Sum' name='[sum:Calculation_1308014222579318785:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]' included-values='non-null' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222576865280:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222576865280:qk]</rows>
+        <cols>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{6C509434-0CA2-4811-A1AA-DEE9A1D8E5C1}' />
+    </worksheet>
+    <worksheet name='Percentage Of Margin Of Safety Of Sample Data'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Analytics  -Indian Stock Market Top 2000' name='federated.1g25sad1jvamt50zkbpwa0v6iuet' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g25sad1jvamt50zkbpwa0v6iuet'>
+            <column datatype='real' name='[5Y Historical EPS Growth]' role='measure' type='quantitative' />
+            <column caption='Intrinsic Value' datatype='real' name='[Calculation_1308014222576865280]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([Earnings Per Share] * (8.5+2*[5Y Historical EPS Growth])*6)/ [Dividend Yield])' />
+            </column>
+            <column caption='Margin Of Safetyv In Percentage' datatype='real' name='[Calculation_1308014222579318785]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([Calculation_1308014222576865280] - [Close Price])/[Calculation_1308014222576865280])*100' />
+            </column>
+            <column datatype='real' name='[Close Price]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Dividend Yield]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Earnings Per Share]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1308014222579318785]' derivation='Sum' name='[sum:Calculation_1308014222579318785:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]' included-values='non-null' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]</rows>
+        <cols>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]</cols>
+      </table>
+      <simple-id uuid='{3915FE5A-FE1A-4A97-87A4-C7C92AB2BFC7}' />
+    </worksheet>
+    <worksheet name='Segregation Acc To Growth Cases'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data Analytics  -Indian Stock Market Top 2000' name='federated.1g25sad1jvamt50zkbpwa0v6iuet' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g25sad1jvamt50zkbpwa0v6iuet'>
+            <column datatype='real' name='[5Y Historical EPS Growth]' role='measure' type='quantitative' />
+            <column caption='Intrinsic Value' datatype='real' name='[Calculation_1308014222576865280]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([Earnings Per Share] * (8.5+2*[5Y Historical EPS Growth])*6)/ [Dividend Yield])' />
+            </column>
+            <column caption='Margin Of Safetyv In Percentage' datatype='real' name='[Calculation_1308014222579318785]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(([Calculation_1308014222576865280] - [Close Price])/[Calculation_1308014222576865280])*100' />
+            </column>
+            <column caption='3 Cases Of Growth' datatype='string' name='[Calculation_1308014222583783426]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='If [Calculation_1308014222579318785] &gt;= 15 AND [Calculation_1308014222579318785]&lt;=25    THEN &quot;Good Growth&quot;&#13;&#10;ELSEIF  [Calculation_1308014222579318785] &lt;= -5 THEN &quot;Bad Growth&quot; &#13;&#10;ELSEIF [Calculation_1308014222579318785] &gt;=25 THEN &quot;Best Growth&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Count of Comapny' datatype='integer' name='[Calculation_1308014222585688067]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Name])' />
+            </column>
+            <column datatype='real' name='[Close Price]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Dividend Yield]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Earnings Per Share]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1308014222583783426]' derivation='None' name='[none:Calculation_1308014222583783426:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1308014222579318785]' derivation='Sum' name='[sum:Calculation_1308014222579318785:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1308014222585688067]' derivation='User' name='[usr:Calculation_1308014222585688067:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Calculation_1308014222583783426:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Calculation_1308014222583783426:nk]' />
+              <groupfilter function='member' level='[none:Calculation_1308014222583783426:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[sum:Calculation_1308014222579318785:qk]</column>
+            <column>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Calculation_1308014222583783426:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[usr:Calculation_1308014222585688067:qk]</rows>
+        <cols>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Calculation_1308014222583783426:nk]</cols>
+      </table>
+      <simple-id uuid='{45A2A55B-02B0-4187-B5F2-D599AB4FB0C2}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Intrinsic Values Of Sample Companies'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{69E3F90E-701C-4C05-936F-6F17E17DBCE2}' />
+    </window>
+    <window class='worksheet' name='Percentage Of Margin Of Safety Of Sample Data'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{91E3A5BB-7A1C-4FAA-92A8-B8D50273FAFD}' />
+    </window>
+    <window class='worksheet' name='Segregation Acc To Growth Cases'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Calculation_1308014222583783426:nk]</field>
+            <field>[federated.1g25sad1jvamt50zkbpwa0v6iuet].[none:Name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9106981E-6978-4E04-A05C-6D627AAFCB73}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Intrinsic Values Of Sample Companies' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Percentage Of Margin Of Safety Of Sample Data' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Segregation Acc To Growth Cases' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
